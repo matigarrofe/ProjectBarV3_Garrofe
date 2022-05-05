@@ -1,0 +1,51 @@
+@import "./utilities/variables";
+@import "./utilities/botones";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#body {
+    background: $color-body;
+}
+
+
+.container .container-header .navbar {
+    background-color: $color-header !important;
+    color: white;
+    height: 150px;
+}
+
+#galeria {
+    img:hover {
+        width: 100%;
+        border: 5px solid black;
+        height: 250px;
+    }
+    .col-lg-4 {
+        margin: 0!important;
+        padding: 25px;
+    }
+    }
+
+.dropdown .dropdown-menu {
+    background-color: $color-container;
+}
+.card-body {
+    padding: 10 10 10 10;
+    height: 200px;
+}
+
+#galeria .container {
+    padding: 10 10 10 10;
+    background-color: $color-container;
+}
+#table{
+    background-color: $color-tabla !important;
+}
+.navbar .nav-item .nav-link {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+}

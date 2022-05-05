@@ -1,0 +1,73 @@
+.boton, .botonRojo, .botonVerde {
+  background-color: green;
+  text-align: center;
+  color: pink;
+  border-radius: 20px;
+  border: 1px solid black; }
+  .boton:hover, .botonRojo:hover, .botonVerde:hover {
+    filter: opacity(85%);
+    background-color: blue; }
+
+.botonRojo {
+  background-color: red;
+  color: yellow; }
+
+.botonVerde {
+  background-color: green;
+  color: white; }
+
+.botonLinkedIn {
+  color: #bdda3c; }
+
+.botonFacebook {
+  color: #3533ad; }
+
+.botonInstagram {
+  color: #df1010; }
+
+.letraChica {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.letraMediana {
+  font-size: 2rem;
+  font-weight: 500; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+#body {
+  background: #FFA07A; }
+
+.container .container-header .navbar {
+  background-color: #CD5C5C !important;
+  color: white;
+  height: 150px; }
+
+#galeria img:hover {
+  width: 100%;
+  border: 5px solid black;
+  height: 250px; }
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
+.dropdown .dropdown-menu {
+  background-color: #E9967A; }
+
+.card-body {
+  padding: 10 10 10 10;
+  height: 200px; }
+
+#galeria .container {
+  padding: 10 10 10 10;
+  background-color: #E9967A; }
+
+#table {
+  background-color: #ABB2B9 !important; }
+
+.navbar .nav-item .nav-link {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white; }
